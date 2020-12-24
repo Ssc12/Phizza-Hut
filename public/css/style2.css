@@ -1,0 +1,136 @@
+/* Home.blade.php */
+
+.container-add-search{
+    width: 900px;
+    margin: 20px auto;
+    display: flex;
+    padding-left: 20px;
+}
+
+.center-row{
+    display: flex; 
+    align-items:center;
+}
+
+.search-label{
+    width:110px;
+    margin-top: 20px;
+}
+
+.container-external{
+    width: 1000px;
+    margin: 50px auto;
+    background-color: #fdfcfc;
+}
+
+.container-internal{
+    width: 950px;
+    margin: 50px auto;
+    padding-left: 27px;
+    display: flex;
+    flex-wrap: wrap;
+    background-color: #fdfcfc;
+}
+
+.container-item{
+    position: relative;
+    width: 100%;
+    padding-bottom: 10px;
+    flex: 0 0 27%;
+    max-width: 55%;
+    margin: 20px;
+    background-color: #fff;
+    border: solid #e0e0e0;
+    border-width: 1px;
+}
+
+/* CRUD pizza */
+
+.crud-pizza-title{
+    text-align: left; 
+    margin-left: 80px;
+}
+
+.crud-pizza-label{
+    padding: 15px 10px;
+    font-size:16px;
+    line-height: 20px;
+    text-align: left;
+    margin-left: 70px;
+}
+
+.input-file{
+    width: 350px;
+    margin-left: -350px;
+}
+
+.crud-grid{
+    display: grid;
+    grid-template-columns: 40fr 70fr;
+    padding: 10px;
+}
+
+.crud-image img{
+    width: 350px;
+    height: 300px;
+}
+
+.crud-description{
+    text-align: left;
+}
+
+.crud-text{
+    font-size: medium;
+    margin-bottom: 15px;
+}
+
+.crud-del-box{
+    width: 900px;
+    margin: 35px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid rgba(201, 196, 196, 0.623);
+}
+
+.crud-del-grid{
+    display: grid;
+    grid-template-columns: 50fr 50fr;
+    padding: 10px;
+}
+
+/* view cart */
+
+.cart-box{
+    width: 1000px;
+    margin: 35px auto;
+    padding: 20px;
+    background-color: #fff;
+    border: 1px solid rgba(201, 196, 196, 0.623);
+} 
+
+.cart-grid{
+    display: grid;
+    grid-template-columns: 40fr 70fr;
+    padding: 10px;
+}
+
+.cart-image img{
+    width: 300px;
+    height: 230px;
+    margin-top: 20px;
+}
+
+.cart-description{
+    text-align: left;
+}
+
+.cart-text{
+    font-size: medium;
+    margin-top: 0px;
+    margin-bottom: 15px;
+}
+
+.cart-qty-container{
+    width: 500px;
+    display: flex;
+}
